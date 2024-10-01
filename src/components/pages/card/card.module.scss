@@ -1,0 +1,36 @@
+.block{
+  border: 1px solid #ddd;
+border-radius: 12px;
+padding: 17px;
+width: 628px;
+height: 66px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.text{
+  font-family: var(--third-family);
+font-weight: 600;
+font-size: 15px;
+line-height: 127%;
+color: #222;
+
+}
+.span{
+  border-left: 1px solid #ddd;
+width: 218px;
+height: 19px;
+}
+.link{
+  font-family: var(--third-family);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 127%;
+  color: #717171;
+  text-decoration: none;
+}
+.desc{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
