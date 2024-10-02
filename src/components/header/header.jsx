@@ -30,6 +30,7 @@ export const Header = () => {
 
       </div>
         <hr className={style.hr}/>
+        <div className={style.container}>
         <div className={style.row}>
         <Head />
         <Head />
@@ -42,6 +43,7 @@ export const Header = () => {
         <Head />
         <Head />
         <Head />
+        </div>
         </div>
         <div className={style.box}>
           <Card />
